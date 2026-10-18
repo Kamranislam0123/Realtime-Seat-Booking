@@ -1,0 +1,31 @@
+# Dependencies
+**/node_modules/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Build output and caches
+**/.next/
+**/out/
+**/build/
+**/dist/
+**/coverage/
+*.tsbuildinfo
+
+# Logs and local runtime data
+*.log
+**/logs/
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+
+# Local and private files
+.DS_Store
+Thumbs.db
+*.pem
+*.key
+.vercel/
